@@ -37,4 +37,17 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+    public function username()
+    {
+        $field = request()->input('username');
+
+        if (strlen($field) == 6) {
+            return 'nrk_emp';
+        } elseif (strlen($field) == 18) {
+            return 'nip_emp';
+        } else {
+            return 'id_emp';
+        }
+    }
 }
