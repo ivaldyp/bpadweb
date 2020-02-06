@@ -11,15 +11,15 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('index');
-// });
+Route::get('/', function () {
+    return view('index');
+});
 
-// Route::get('/home', function () {
-//     return view('index');
-// });
+Route::get('/home', function () {
+    return view('index');
+});
 
-Route::get('/', 'LandingController@index');
+Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
 Route::POST('/mail', 'HomeController@feedback');
 
@@ -35,6 +35,3 @@ Route::group(['prefix' => 'content'], function () {
 	Route::get('/video', 'ContentController@video_all');
 	Route::get('/video/{id}', 'ContentController@video_open');
 });
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

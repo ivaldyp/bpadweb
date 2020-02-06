@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layout.master')
 
 @section('content')
 <div class="container">
@@ -22,22 +22,22 @@
 					<!-- article img -->
 					<div id="home-owl" class="owl-carousel owl-theme">
 						<div class="home-item" style="height: 600px">
-							<div class="section-bg" style="background-image: url('{{ ('/bpadweb/public/img/profil/image-01-full.jpg') }}') ; background-size: contain; background-repeat: no-repeat;"></div>
+							<div class="section-bg" style="background-image: url('{{ ('/mockup-v1/public/img/profil/image-01-full.jpg') }}') ; background-size: contain; background-repeat: no-repeat;"></div>
 						</div>
 						<div class="home-item" style="height: 600px">
-							<div class="section-bg" style="background-image: url('{{ ('/bpadweb/public/img/profil/image-02-full.jpg') }}') ; background-size: contain; background-repeat: no-repeat;"></div>
+							<div class="section-bg" style="background-image: url('{{ ('/mockup-v1/public/img/profil/image-02-full.jpg') }}') ; background-size: contain; background-repeat: no-repeat;"></div>
 						</div>
 						<div class="home-item" style="height: 600px">
-							<div class="section-bg" style="background-image: url('{{ ('/bpadweb/public/img/profil/image-03-full.jpg') }}') ; background-size: contain; background-repeat: no-repeat;"></div>
+							<div class="section-bg" style="background-image: url('{{ ('/mockup-v1/public/img/profil/image-03-full.jpg') }}') ; background-size: contain; background-repeat: no-repeat;"></div>
 						</div>
 						<div class="home-item" style="height: 600px">
-							<div class="section-bg" style="background-image: url('{{ ('/bpadweb/public/img/profil/image-04-full.jpg') }}') ; background-size: contain; background-repeat: no-repeat;"></div>
+							<div class="section-bg" style="background-image: url('{{ ('/mockup-v1/public/img/profil/image-04-full.jpg') }}') ; background-size: contain; background-repeat: no-repeat;"></div>
 						</div>
 						<div class="home-item" style="height: 600px">
-							<div class="section-bg" style="background-image: url('{{ ('/bpadweb/public/img/profil/image-05-full.jpg') }}') ; background-size: contain; background-repeat: no-repeat;"></div>
+							<div class="section-bg" style="background-image: url('{{ ('/mockup-v1/public/img/profil/image-05-full.jpg') }}') ; background-size: contain; background-repeat: no-repeat;"></div>
 						</div>
 						<div class="home-item" style="height: 600px">
-							<div class="section-bg" style="background-image: url('{{ ('/bpadweb/public/img/profil/image-06-full.jpg') }}') ; background-size: contain; background-repeat: no-repeat;"></div>
+							<div class="section-bg" style="background-image: url('{{ ('/mockup-v1/public/img/profil/image-06-full.jpg') }}') ; background-size: contain; background-repeat: no-repeat;"></div>
 						</div>
 					</div>
 					<!-- <div class="article-img">
@@ -77,18 +77,18 @@
 			            <br>
 
 			            <h2 class="article-title">Struktur Organisasi - BPAD</h2>
-			            <!-- <img id="img-overlay" src="{{ ('/bpadweb/public/img/profil/organisasi.png') }}" style="width: 100%"> -->
+			            <!-- <img id="img-overlay" src="{{ ('/mockup-v1/public/img/profil/organisasi.png') }}" style="width: 100%"> -->
 			            <!-- <div id="overlay"></div> -->
 			            <span class='zoom' id='ex2'>
-							<img src="{{ ('/bpadweb/public/img/profil/organisasi.jpg') }}" width='100%' alt='Struktur Organisasi BPAD'/>
+							<img src="{{ ('/mockup-v1/public/img/profil/organisasi.jpg') }}" width='100%' alt='Struktur Organisasi BPAD'/>
 						</span>
 			            <br><br>
 
 			            <h2 class="article-title">Struktur Organisasi - Suku Badan</h2>
-			            <!-- <img id="img-overlay" src="{{ ('/bpadweb/public/img/profil/organisasi.png') }}" style="width: 100%"> -->
+			            <!-- <img id="img-overlay" src="{{ ('/mockup-v1/public/img/profil/organisasi.png') }}" style="width: 100%"> -->
 			            <!-- <div id="overlay"></div> -->
 			            <span class='zoom' id='ex1'>
-							<img src="{{ ('/bpadweb/public/img/profil/organisasi_suban.jpg') }}" width='100%' alt='Struktur Organisasi BPAD'/>
+							<img src="{{ ('/mockup-v1/public/img/profil/organisasi_suban.jpg') }}" width='100%' alt='Struktur Organisasi BPAD'/>
 						</span>
 			            <br><br>
 
